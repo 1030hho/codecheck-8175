@@ -1,0 +1,10 @@
+{
+  "name" : "challenge-5coins",
+  "version" : "1.0.0",
+  "description" : "codecheck challenge",
+  "author" : "Givery",
+  "devDependencies" : {
+    "chai" : "^3.5.0",
+    "codecheck" : "^0.6.0"
+  }
+}
