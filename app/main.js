@@ -41,6 +41,7 @@ console.log(t);
     console.log('cant solve');
     return -1;
   }
+  return t[sum];
 }
 
 module.exports = main;
