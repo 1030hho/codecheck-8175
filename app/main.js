@@ -10,13 +10,11 @@ function main(argv) {
   // console.log(coin, sum);
   if (sum > 500 || sum < 1) {
     // console.log('invalid');
-    return -1;
   }
 
   coin.forEach(v => {
     if (v > 100 || v < 1) {
       //// console.log('invalid');
-      return -1;
     }
   });
 
@@ -40,10 +38,8 @@ function main(argv) {
   if (t[sum] == max) {
     // console.log('cant solve');
     console.log(-1);
-    return -1;
   }
   console.log(t[sum]);
-  return t[sum];
 }
 
 module.exports = main;
