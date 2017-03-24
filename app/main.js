@@ -7,16 +7,16 @@ function main(argv) {
   var coin = argv[0].split(',').map(v => Number(v));// array
   var sum = Number(argv[1]);
   var max = 501;
-  if (sum > 500 || sum < 1) {
-    console.log(-1);
-  }
-
-//  check if invalid input 
-  coin.forEach(v => {
-    if (v > 100 || v < 1) {
-      console.log(-1);
-    }
-  });
+//   if (sum > 500 || sum < 1) {
+//     console.log(-1);
+//   }
+//
+// //  check if invalid input
+//   coin.forEach(v => {
+//     if (v > 100 || v < 1) {
+//       console.log(-1);
+//     }
+//   });
 
   var t = new Array(sum+1);
   t[0] = 0;
