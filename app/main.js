@@ -39,6 +39,7 @@ function main(argv) {
   // console.log(t[sum]);
   if (t[sum] == max) {
     // console.log('cant solve');
+    console.log(-1);
     return -1;
   }
   console.log(t[sum]);
